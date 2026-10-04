@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .perspective-1500 {
+    perspective: 1500px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Authentic Baseball Card Texture & Styling */
+.baseball-card-shadow {
+  box-shadow: 
+    0 10px 25px -5px rgba(0, 0, 0, 0.6),
+    0 8px 10px -6px rgba(0, 0, 0, 0.4),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.gold-foil-border {
+  border: 3px solid #d4af37;
+  box-shadow: 
+    0 0 15px rgba(212, 175, 55, 0.4),
+    inset 0 0 10px rgba(212, 175, 55, 0.2);
+}
+
+.vintage-pinstripe {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 12px,
+    rgba(255, 255, 255, 0.03) 12px,
+    rgba(255, 255, 255, 0.03) 13px
+  );
+}
+
+.cardboard-texture {
+  background-color: #1e2430;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 0);
+  background-size: 8px 8px;
+}

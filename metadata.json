@@ -1,0 +1,6 @@
+{
+  "name": "Hive Witness Cards",
+  "description": "Interactive collectible baseball-card dashboard displaying Hive blockchain witnesses with live ranking, HBD interest rates, Hive Power, Keychain voting integration, and flip-card statistics in a 5x5 grid.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
